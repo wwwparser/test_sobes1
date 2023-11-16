@@ -6,6 +6,7 @@ import re
 app = Flask(__name__)
 db = TinyDB('forms_db.json')
 
+
 # Пример тестовой базы данных
 # initial_forms = [
 #     {

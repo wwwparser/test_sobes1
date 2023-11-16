@@ -11,6 +11,7 @@ test_data = [
     # {'field_email': '+7 999 888 77 66', 'field_phone': '2023-02-02', 'field_date': 'user@example.com', 'field_text': 'text'}
 ]
 
+
 # Тестирование запросов
 for data in test_data:
     response = requests.post(f'{base_url}/get_form', data=data)
